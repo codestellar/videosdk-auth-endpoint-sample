@@ -41,7 +41,7 @@ Make a POST request to `http://localhost:4000` (or your deployed url) with the f
 | `expirationSeconds`      | `number` | No        | - Must be between `1800` (30 minutes) and `172800` (48 hours) seconds |
 | `userIdentity`           | `string` | No        | - Must be fewer than 35 characters                                    |
 | `sessionKey`             | `string` | No        | - Must be fewer than 36 characters                                    |
-| `geoRegions`             | `string` | No        | - Must be a comma-separated string with valid Zoom geo regions        |
+| `geoRegions`             | `string` | No        | - Must be a comma-separated string with valid [Zoom geo regions](https://developers.zoom.us/docs/video-sdk/account/#customize-data-center-regions)        |
 | `cloudRecordingOption`   | `number` | No        | - Must equal `0` or `1`                                               |
 | `cloudRecordingElection` | `number` | No        | - Must equal `0` or `1`                                               |
 | `telemetryTrackingId`    | `string` | No        | N/A                                                                   |
